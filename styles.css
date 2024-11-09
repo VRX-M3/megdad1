@@ -1,0 +1,73 @@
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background: linear-gradient(45deg, #2d7a59, #a2c8a3);
+    color: white;
+    direction: rtl;
+    text-align: center;
+    padding: 50px 0;
+    margin: 0;
+}
+
+h1 {
+    color: #fff;
+    font-size: 3.5em;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+button {
+    background-color: #f8b400;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.5em;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #f07e00;
+    transform: scale(1.1);
+}
+
+button:focus {
+    outline: none;
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    animation: fadeIn 1s ease-out;
+}
+
+header p {
+    font-size: 1.5em;
+    margin-top: 10px;
+    color: #e0e0e0;
+}
+
+.download {
+    margin-top: 50px;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    button {
+        font-size: 1.2em;
+        padding: 12px 25px;
+    }
+}
